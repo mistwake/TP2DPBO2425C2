@@ -16,24 +16,24 @@ tidak akan melakukan kecurangan seperti yang telah di spesifikasikan Aamiin.
 
 ### 1. **Barang**
 - Class dasar yang menyimpan atribut umum semua barang di toko:
-  - `id` → kode unik barang
-  - `nama` → nama barang
-  - `harga` → harga barang
-- Class ini bisa digunakan untuk semua barang, tidak hanya elektronik.
+  - id → kode unik barang
+  - nama → nama barang
+  - harga → harga barang
+- Class ini bisa digunakan secara umum untuk semua barang, tidak hanya elektronik.
 
 ### 2. **Elektronik**
-- Turunan dari `Barang`, menambahkan atribut khusus barang elektronik:
-  - `merk` → merek barang
-  - `garansi` → lama garansi (bulan)
+- Turunan dari Barang, menambahkan atribut khusus barang elektronik:
+  - merk → merek barang
+  - garansi → lama garansi (bulan)
 - Cocok untuk barang elektronik secara umum, seperti TV, kulkas, laptop.
 
 ### 3. **Gadget**
-- Turunan dari `Elektronik`, khusus untuk gadget seperti HP, laptop, atau tablet.
+- Turunan dari Elektronik, khusus untuk gadget seperti HP, laptop, atau tablet.
 - Atribut tambahan:
-  - `jenis` → tipe gadget (HP/Laptop/Tablet)
-  - `os` → sistem operasi (Android/iOS/Windows)
-  - `ram` → kapasitas RAM (GB)
-  - `storage` → kapasitas penyimpanan (GB)
+  - jenis → tipe gadget (HP/Laptop/Tablet)
+  - os → sistem operasi (Android/iOS/Windows)
+  - ram → kapasitas RAM (GB)
+  - storage → kapasitas penyimpanan (GB)
 
 ## FLOW CODE
 1. Mulai Program
